@@ -49,7 +49,7 @@ function Scanimage (props)  {
       let fromLang = 'en';
       let toLang = 'ko'; 
       
-      const API_KEY = "AIzaSyDz0UOFdeLplg7qMgTaVJzlf3uxI57SPWw";
+      const API_KEY = "API_KEY";
       fetch("https://api.clarifai.com/v2/models/" + MODEL_ID + "/versions/" + MODEL_VERSION_ID + "/outputs", requestOptions)
           .then(response => response.text())
           .then((result) => {
