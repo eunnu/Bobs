@@ -1,0 +1,103 @@
+.study_title {
+color: #9ccbfe;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.my_study_page{
+    height: 600px;
+    overflow: hidden;
+}
+
+.study_page{
+    height: 295px; 
+    overflow-y: auto;
+}
+
+/* 참여한 스터디 부분 */
+.study_joined_box{
+    display: flex;
+    flex-flow: column wrap;
+    width: 360px;
+    overflow-x: scroll;
+    height: 130px;
+    padding-left: 30px;
+}
+
+/* 검색창 부터 끝까지 */
+.study_main {
+    padding-left: 30px;
+}
+
+/* 스터디 목록 */
+.study_info_box {
+    width: 300px;
+    padding-top: 10px;
+    height: 300px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(113, 159, 206,0.35);
+}
+
+/* 검색창 부분 */
+
+.study_search_input {
+    display: flex;    
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgba(113, 159, 206, 0.35);
+    border-radius: 18px;
+    padding: 0 10px 0px 10px;
+    margin-top: 20px;
+}
+
+.study_img_icon {
+    height: 40px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+}
+
+#study_search_input {
+    height: 36px;
+    width: 230px;
+    margin-left: 25px;
+    outline: none;
+    border: none;
+}
+
+.search_item {
+    width: 20px;
+    height: 20px;
+  }
+
+.delete_item {
+    width: 15px;
+    height: 15px;
+}
+
+/* 토글 */
+.study_toggle{
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.create_study_btn {
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    top: 540px;
+}
+
+.create_study_img {
+    width: 40px;
+    height: 40px;
+}
+
+.scroll_target {
+    height: 10px;
+}
